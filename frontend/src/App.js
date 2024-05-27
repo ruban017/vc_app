@@ -16,9 +16,9 @@ const useStyles = makeStyles((theme) => ({
     alignItems: 'center',
     width: '600px',
     border: '2px solid black',
-    backgroundColor: 'rgba(128, 128, 128, 0.5)', // Transparent grey background
+    backgroundColor: 'rgba(128, 128, 128, 0.5)',
     '&:hover': {
-      backgroundColor: 'rgba(128, 128, 128, 0.7)', // Slightly less transparent on hover
+      backgroundColor: 'rgba(128, 128, 128, 0.7)',
     },
     [theme.breakpoints.down('xs')]: {
       width: '90%',
@@ -34,14 +34,14 @@ const useStyles = makeStyles((theme) => ({
     width: '100%',
   },
   typography: {
-    color: 'black', // Text color
-    fontSize: '2.5rem', // Increased font size
-    fontWeight: 'bold', // Bold text
-    fontFamily: 'Arial, sans-serif', // Font family
-    textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)', // Text shadow
-    transition: 'color 0.3s ease', // Smooth transition for hover effect
+    color: 'black', 
+    fontSize: '2.5rem', 
+    fontWeight: 'bold', 
+    fontFamily: 'Arial, sans-serif', 
+    textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)', 
+    transition: 'color 0.3s ease', 
     '&:hover': {
-      color: 'rgba(0, 0, 0, 0.7)', // Slightly lighter text color on hover
+      color: 'rgba(0, 0, 0, 0.7)', 
     },
   },
 }));
